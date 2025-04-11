@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>心理测验说明页</title>
+    <style>
+        /* 设置背景和页面基本布局 */
+        body {
+            background-color: #f7fafc; /* 设置页面背景色 */
+            font-family: Arial, sans-serif; /* 设置字体 */
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* 设置容器样式 */
+        .container {
+            background-color: white; /* 设置容器背景色 */
+            padding: 2rem; /* 设置内边距 */
+            border-radius: 8px; /* 设置圆角 */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 设置阴影 */
+            width: 80%;
+            max-width: 600px; /* 设置容器最大宽度 */
+        }
+
+        /* 设置标题样式 */
+        h1 {
+            font-size: 1.8rem; /* 设置标题字体大小 */
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        /* 设置段落样式 */
+        p {
+            font-size: 1rem; /* 设置字体大小 */
+            color: #4a5568; /* 设置字体颜色 */
+            line-height: 1.6; /* 设置行间距 */
+            margin-bottom: 1.5rem; /* 设置段落间距 */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>亲爱的同学，你好!</h1>
+        <p>心理测验是科学了解自己心理健康状况的重要途径。所有问题答案无对错之分，请根据你的自身实际状况真实作答。你的心理测验结果将严格遵循心理测验的伦理要求，并在法律的规范下使用，确保你的个人隐私受到保护。</p>
+        <p>测验完成后，你可向所在学校心理健康教育中心查询测验结果，并有专业人员为你做出专业解释。请在你遇到心理困扰的时候记得，可以拨打苏心心理热线(400 - 167 - 8898)，以及你所在学校的心理健康教育中心在守候着你的心理健康。</p>
+    </div>
+</body>
+</html>
